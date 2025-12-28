@@ -186,8 +186,7 @@ class MHMAI:
                 ai_response = ai_response.replace('OpenAI', 'M.H.M AI')
                 ai_response = ai_response.replace('DeepSeek', 'M.H.M AI')
                 ai_response = ai_response.replace('organization based in the United States', 'မြန်မာနိုင်ငံအခြေစိုက် organization')
-                ai_response = ai_response.replace('```','`')
-              ai_response = ai_response.replace('developed by M.H.M AI', 'မြန်မာနိုင်ငံက Grade 11 ကျောင်းသားတစ်ယောက်က developed လုပ်ခဲ့တာ')
+                ai_response = ai_response.replace('```', '`')
                 ai_response = ai_response.replace('based in San Francisco, California', 'မကွေးတိုင်း၊ ပခုက္ကူခရိုင်အခြေစိုက်')
                 return ai_response + self.watermark
             return "အမှား: AI ထံမှတုံ့ပြန်ချက်မရှိပါ" + self.watermark
